@@ -52,7 +52,7 @@ function App(props) {
     // eslint-disable-next-line
   }, [search]);
   
-  return (
+    return (
     <div className={classes.root}>
       <AppBar position="static" style={{ background: '#2E3B55' }}>
         <Toolbar>
@@ -64,7 +64,7 @@ function App(props) {
             align="center"
             className={classes.title}
           >
-            EKS DEMO Blog
+            EKS DEMO Blog version 1
           </Typography>
           {new Date().toLocaleTimeString()}
         </Toolbar>
